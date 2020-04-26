@@ -1,8 +1,3 @@
-window.onload=f;
-function f(){
-	var x="Bun venit pe site!";
-	alert(x);
-}
 function mOver(obj) {
     obj.innerHTML = "Himalaya Mountains"
 }
