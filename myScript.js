@@ -54,6 +54,33 @@ images[2] = "image3.jpg";
 images[3] = "image4.jpg";
  setTimeout("changeImage()", 3000); 
 
+ function numarValid() {
+    var x, text;
+
+    x = document.getElementById("numb").value;
+
+    
+    if ( x.length !== 12) {
+        text = "Numarul nu este corect!";
+    } else {
+        text = "Numarul este corect!";
+    }
+    document.getElementById("rezultatNumar").innerHTML = text;
+}
+ function emailValid() {
+    var x, text;
+
+    x = document.getElementById("numb1").value;
+
+    
+    if (  /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(x) ) {
+        text = "Email corect!";  
+    } else {
+        text = "Email gresit!";
+    }
+    document.getElementById("rezultatEmail").innerHTML = text;
+}
+
 var i=0;
 var lacuri = ["ORT Pangong", "Gurudogmar", "Tsongmo", "Tilicho"];
 var text = "";

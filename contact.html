@@ -4,12 +4,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Muntii Himalaya</title>
 		<link rel="stylesheet" type="text/css" href="style12.css">
+		<script src="myScript.js"></script>
 	</head>
 
 	
 	<body >
 		<header>
-		   <h1>Muntii Himalaya</h1>
+		   <h1 onmouseover="mOver(this)" onmouseout="mOut(this)" >Muntii Himalaya</h1>
 		</header>
 			
 		<nav>
@@ -34,7 +35,8 @@
 				  <a href="originilesicrestereaeconomica.html">Originile si cresterea economica</a>
 				  <a href="ghetarii.html">Ghetarii si fluviile</a>
 				  <a href="lacurile.html">Lacurile</a>
-				  <a href="trecatorile.html">Trecatorile</a>
+				<a href="trecatorile.html">Trecatorile</a>
+				<a href="varfurile.html">Varfurile</a>
 				</div>
 				<li class="dropdown">
 					<button class="dropbtn">Social</button>
@@ -42,6 +44,7 @@
 					  <a href="politicasicultura.html">Politica si cultura</a>
 					  <a href="religie.html">Religie</a>
 					  <a href="impactinartasiliteratura.html">Impact in arta si literatura</a>
+					  <script src="myScript.js"></script>
 					</div>
 				</li>
 				<li><a href="contact.html">Contact</a></li>
@@ -50,25 +53,40 @@
 		
 		<section>
 			<aside>
-				 <img src="transhimalaya.jpg" alt="transhimalaya.jpg" width="375" height="250">
+ 			<img src="contact.jpg" alt="contact.jpg" width="375" height="250">
 			</aside>
 
 			<article>
-				<h2> Trans-Himalaya</h2>
+				<h2> Contact Us</h2>
 				<p>
-				Cotitură între râuri curgătoare din sud în râul Gange sau Indus şi râuri 
-				curgătoare în nord Brahmaputra sau Indus este că fluxul din jurul capetele 
-				intreagi gama de multe ori urmează ceva mai mică, mai puţin accidentat zeci
- 				de kilometri de la munţii din la cel mai înalt varf, curge râuri de sub 
-				forma văi în această regiune, de multe ori semi-aride din cauza umbrelor de
-				 ploaie. Aceste văi deţin unele dintre cele mai mari sate permanente de pe 
-				pământ.
+ 				 Iacob Diana Florina
 				</p>
-			</article>
-		</section>
-<footer>
+				<p>
+				Email:iacob_dia@yahoo.com
+				</p>
+				<p>
+				Telefon:+40720229961
+				</p>
+				<p>Pentru a ne contacta pentru mai multe detalii introduceti:</p>
+				<p>- numarul de telefon(cu prefix):</p>
 
-<p> Copyright: Iacob Diana Florina</p>
+				<input id="numb">
+
+				<button type="button" onclick="numarValid()">Validare</button>
+
+				<p id="rezultatNumar"></p>
+				
+				<p>- adresa de email:</p>
+
+				<input id="numb1">
+
+				<button type="button" onclick="emailValid()">Validare</button>
+
+				<p id="rezultatEmail"></p>
+			</article>
+</section>
+<footer>
+	<p> Copyright: Iacob Diana Florina</p>
 </footer>
 </body>
 </html>
