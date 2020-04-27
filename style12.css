@@ -39,7 +39,7 @@ height:auto;
 
 
 aside {
-width:28%;
+width:25%;
     float: left;
  
 
@@ -49,15 +49,13 @@ border: 1px solid gray;
 }
 
 
-
 article {
-width:72%
-    margin-left: 400px;
-    border: 1px solid gray;
-    padding: 1em;
-    overflow: hidden;
+width:70%;
+margin-left: 400px;
+border: 1px solid gray;
+padding: 1em;
+overflow: hidden;
 border-style: double;
-
 }
 
 ul {    
@@ -70,7 +68,7 @@ list-style-type: none;
 
 }
 
-li {width: 19%;
+li {width: 14%;
     float: left;
  
 }
@@ -129,4 +127,4 @@ width: 14%;
 footer{
 color:white;
 }
-
+}
