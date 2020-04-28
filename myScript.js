@@ -13,7 +13,7 @@ var myVar = setInterval(function(){ setColor() }, 2000);
  
 function setColor() {
   var x = document.body;
-  x.style.backgroundColor = x.style.backgroundColor == "rgb(26, 77, 255)" ? "rgb(35, 16, 203)" : "rgb(26, 77, 255)";
+  x.style.backgroundColor =  "rgb(26, 77, 255)";
 }
  
 function stopColor() {
