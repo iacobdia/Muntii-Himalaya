@@ -18,8 +18,10 @@ text-shadow: 3px 2px rgb(180, 180, 180);
 font-style: italic;
  font-size: 15px;
 font-weight: bold;
-    background-image: url("bbb.jpg") ;
-background-repeat:no-repeat;
+    background-image: url("Header.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 50%;
     text-align:right;
 }
 footer{
