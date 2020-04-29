@@ -18,7 +18,7 @@ text-shadow: 3px 2px rgb(180, 180, 180);
 font-style: italic;
  font-size: 15px;
 font-weight: bold;
-    background-image: url("Header.jpg") ;
+    background-image: url("../jpg/Header.jpg") ;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 50%;

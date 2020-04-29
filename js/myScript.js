@@ -48,10 +48,10 @@ function fadeImg(el, val, fade){
 var images = [],
 x = 0;
 
-images[0] = "image1.jpg";
-images[1] = "image2.jpg";
-images[2] = "image3.jpg";
-images[3] = "image4.jpg";
+images[0] = "../jpg/image1.jpg";
+images[1] = "../jpg/image2.jpg";
+images[2] = "../jpg/image3.jpg";
+images[3] = "../jpg/image4.jpg";
  setTimeout("changeImage()", 3000); 
 
  function numarValid() {
